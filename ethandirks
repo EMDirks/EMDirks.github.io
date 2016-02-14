@@ -1,0 +1,501 @@
+/* ==================== BEGIN DOCUMENT-WIDE STYLING ==================== */
+
+html {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #ffffff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 { /* USED FOR HOME PAGE NAME (ETHAN DIRKS) */
+	font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #606060;
+	font-size: 40.5px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -3pt;
+}
+
+p { /* USED FOR MENU AND ALL DESCRIPTIVE TEXT */
+	font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #606060;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+
+span { /* ALLOWS FOR PERFECT SPACING OF THE NAVIGATION MENU &NBSP */
+	letter-spacing: -1px;
+	color: #606060;
+}
+
+#menu-p { /* NAVIGATION MENU */
+	font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #606060;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+a:link { /* LINK STATE */
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover { /* LINK STATE */
+	color: #606060;
+	text-decoration: underline;
+}
+
+a:visited { /* LINK STATE */
+	color: #606060;
+	text-decoration: none;
+}
+
+a:active { /* LINK STATE */
+	color: #606060;
+	text-decoration: none;
+	opacity: .5;
+}
+
+/* ==================== END DOCUMENT-WIDE STYLING ==================== */
+
+/* ==================== BEGIN HOME PAGE STYLING ==================== */
+
+#ghost-and-hero-wrapper { /* ALLOWS FOR RESPONSIVE VERTICAL CENTERING */
+	width: 290px;
+	height: 38vh;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	background-color: none;
+}
+
+#ghost { /* ALLOWS FOR VERTICAL CENTERING */
+	height: 100%;
+	width: 2px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	background-color: none;
+}
+
+#hero-wrapper { /* CONTAINS ALL PROFILE INFO (A, H1, P) */
+	width: 280px;
+	height: 165px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: none;
+}
+
+#about-me { /* PARENT DIV OF ABOUT-ME-TEXT */
+	width: 270px;
+	height: 70pt;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	top: -1pt;
+}
+
+#about-me-text { /* DESCRIPTION OF MYSELF */
+	text-align: justify;
+}
+
+#hero-0 { /* MOBILE PROFILE - MAIN RESPONSIV PARENT DIV */
+	display: none;
+}
+
+#hero-1 { /* PLOT GURU */
+	width: 50%;
+	height: 38vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/5q5pMm5.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-2 { /* DESKTOP PROFILE - MAIN RESPONSIVE PARENT DIV */
+	width: 50%;
+	height: 38vh;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	display: block;
+	float: right;
+}
+
+#hero-3 { /* BEASTLY */
+	width: 50%;
+	height: 38vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/YnUDmRZ.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-4 { /* BLUE LIZARD */
+	width: 50%;
+	height: 38vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/38ElnSj.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+#hero-5 { /* LIVID */
+	width: 50%;
+	height: 38vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/TJGNOpl.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-6 { /* LUTHER AND THE BOY */
+	width: 50%;
+	height: 38vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/1GQGLTO.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+@media only screen and (max-width: 780px) { /* HORIZONTAL RESPONSIVE */
+
+	#hero-0 { /* MOBILE PROFILE - MAIN PARENT DIV */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-color: #ffffff;
+		display: block;
+		float: none;
+	}
+
+	#hero-1 { /* PLOT GURU */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/5q5pMm5.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-2 { /* DESKTOP PROFILE */
+		display: none;
+	}
+
+	#hero-3 { /* BEASTLY */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/YnUDmRZ.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-4 { /* BLUE LIZARD */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/UtRJiiN.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-5 { /* LIVID */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/TJGNOpl.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-6 { /* LUTHER AND THE BOY */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/1GQGLTO.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+}
+
+@media only screen and (max-height: 500px) { /* VERTICAL RESPONSIVE */
+	
+	#about-me-text { /* STOPS DISPLAYING MY PROFILE DESCRIPTION */
+		display: none;
+	}
+
+	#hero-wrapper { /* REDUCES VERTICAL HEIGHT OF WRAPPER DIV */
+		width: 280px;
+		height: 65px;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		background-color: none;
+	}
+}
+
+@media only screen and (max-height: 300px) { /* VERTICAL RESPONSIVE */
+	
+	h1 { /* STOPS DISPLAYING MY NAME */
+		display: none;
+	}
+
+	#about-me-text { /* STOPS DISPLAYING MY PROFILE DESCRIPTION */
+		display: none;
+	}
+
+	#hero-wrapper { /* REDUCES VERTICAL HEIGHT OF WRAPPER DIV */
+		width: 280px;
+		height: 15px;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		background-color: none;
+	}
+}
+
+/* ==================== END HOME PAGE STYLING ==================== */
+
+/* ==================== BEGIN WORK PAGE STYLING ==================== */
+
+.comp { /* EACH INDIVIDUAL WORK IMAGE */
+	width: 100vw;
+	height: auto;
+	margin: 0 auto;
+	padding: 0px;
+	border: 0px;
+	display: block;
+}
+
+#h1-work { /* CURRENTLY UNUSED */
+	font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 40.5px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 1pt;
+}
+
+#info { /* REPONSIVE PARENT DIV */
+	width: 100vw;
+	height: 225px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: none;
+	display: block;
+}
+
+#menu-p { /* NAVIGATION MENU */
+	font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #606060;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+}
+
+#info-ghost-and-hero-wrapper { /* ALLOWS FOR VERTICAL CENTERING */
+	width: 290px;
+	height: 210px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	background-color: none;
+}
+
+#info-ghost { /* ALLOWS FOR VERTICAL CENTERING */
+	height: 100%;
+	width: 2px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	background-color: none;
+}
+
+#info-hero-wrapper { /* CONTAINS ALL INFO (A, H1, P) */
+	width: 280px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: none;
+}
+
+#info-about { /* PARENT DIV OF MENU-ABOUT-TEXT */
+	width: 270px;
+	height: 70pt;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	top: 4px;
+}
+
+#info-about-text { /* DESCRIBES THE PARTICULAR PROJECT */
+	text-align: justify;
+	color: #606060;
+	line-height: 20px;
+}
+
+#credits-wrapper { /* PARENT DIV OF CREDITS */
+	width: 100vw;
+	background-color: none;
+	margin: 60px 0px 60px 0px;
+	padding: 0;
+}
+
+#credits { /* USE FOR WORK CREDIT */
+	font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #606060;
+	font-size: 13px;
+	font-weight: normal;
+	width: 270px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 20px;
+}
+
+#feature-wrapper { /* CONTAINS ALL FEATURE BUBBLES */
+	width: 600px;
+	background-color: none;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	left: 7px;
+	top: -7px;
+	padding: 0px 0px 0px 0px;
+}
+
+.feature { /* FEATURE BUBBLE */
+	width: 80px;
+	height: auto;
+	margin: 0;
+	padding: 6px;
+}
+
+#spacer { /* PUTS SPACE BETWEEN FEATURES AND COMPS */
+	width: 100vw;
+	height: 43px;
+	background-color: none;
+}
+
+@media only screen and (max-width: 780px) { /* HORIZONTAL RESPONSIVE */
+
+	#feature-wrapper {
+		width: 300px;
+	}
+}
+
+/* ==================== END WORK PAGE STYLING ==================== */
+
+/* ==================== BEGIN RESUME PAGE STYLING ==================== */
+
+#resume-info { /* REPONSIVE PARENT DIV */
+	width: 100vw;
+	height: 138px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: none;
+	display: block;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #606060;
+	font-size: 13px;
+	font-weight: normal;
+	width: 270px;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 20px;
+}
+
+.resume-text {
+	text-indent: 25px;
+	line-height: 20px;
+}
+
+/* ==================== END RESUME PAGE STYLING ==================== */
+
+/* ==================== BEGIN CONTACT PAGE STYLING ==================== */
+
+#contact-info { /* REPONSIVE PARENT DIV */
+	width: 100vw;
+	height: 138px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: none;
+	display: block;
+}
+
+/* ==================== END CONTACT PAGE STYLING ==================== */
+
+
+
