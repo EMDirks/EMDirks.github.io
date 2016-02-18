@@ -184,6 +184,10 @@ span {
 	#profile {
 		height: 100pt;
 	}
+	
+	#menu {
+		height: 100px;
+	}
 
 	#hero-1 {
 		width: 100%;
