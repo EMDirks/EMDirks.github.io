@@ -284,7 +284,11 @@ a:active { /* LINK STATE */
 	}
 	
 	h1 {
-		font-size: 200px;
+		font-size: 80px;
+	}
+	
+	p {
+		font-size: 15px;
 	}
 
 	#hero-1 { /* PLOT GURU */
