@@ -10,13 +10,33 @@ body {
 	padding: 0;
 }
 
+p {
+	margin: 0;
+	padding: 0;
+	font-size: 13pt;
+	text-align: center;
+	font-family: Avenir Next, Helvetica, sans-serif;
+}
+
+h1 {
+	margin: 3px 0px 0px 0px;
+	padding: 0;
+	font-size: 37pt;
+	text-align: center;
+	font-family: Avenir Next, Helvetica, sans-serif;
+}
+
+span {
+	letter-spacing: 1px;
+}
+
 /* ================= END DOCUMENT-WIDE STYLING ================= */
 
 /* ================= BEGIN INDEX PAGE STYLING ================= */
 
 #hero-1 {
 	width: 50%;
-	height: 38vh;
+	height: 40vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL();
@@ -26,9 +46,29 @@ body {
 	float: left;
 }
 
+#ghost {
+	background-color: none;
+	width: 1px;
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+#tagline {
+	background-color: none;
+	width: 95%;
+	height: 89pt;
+	display: inline-block;
+	margin: 0pt 0pt 0pt 4pt;
+	padding: 0;
+	vertical-align: middle;
+}
+
 #hero-2 {
 	width: 50%;
-	height: 38vh;
+	height: 40vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/5q5pMm5.jpg");
@@ -40,7 +80,7 @@ body {
 
 #hero-3 {
 	width: 50%;
-	height: 38vh;
+	height: 40vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/YnUDmRZ.jpg");
@@ -52,7 +92,7 @@ body {
 
 #hero-4 {
 	width: 50%;
-	height: 38vh;
+	height: 40vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/38ElnSj.jpg");
@@ -64,7 +104,7 @@ body {
 
 #hero-5 {
 	width: 50%;
-	height: 38vh;
+	height: 40vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/TJGNOpl.jpg");
@@ -76,7 +116,7 @@ body {
 
 #hero-6 {
 	width: 50%;
-	height: 38vh;
+	height: 40vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/1GQGLTO.jpg");
