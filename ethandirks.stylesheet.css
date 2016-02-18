@@ -282,6 +282,39 @@ a:active { /* LINK STATE */
 		display: block;
 		float: none;
 	}
+	
+	h1 {
+		font-size: 81px;
+	}
+	
+	p {
+		font-size: 26px;
+	}
+	
+	#menu-p {
+		font-size: 26px;
+	}
+	
+	#ghost-and-hero-wrapper { /* ALLOWS FOR RESPONSIVE VERTICAL CENTERING */
+		width: 580px;
+		height: 38vh;
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		padding: 0;
+		background-color: none;
+	}
+	
+	#hero-wrapper { /* CONTAINS ALL PROFILE INFO (A, H1, P) */
+		width: 560px;
+		height: 165px;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		background-color: none;
+	}
 
 	#hero-1 { /* PLOT GURU */
 		width: 100%;
