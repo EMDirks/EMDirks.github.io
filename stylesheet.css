@@ -13,7 +13,7 @@ body {
 p {
 	margin: 0;
 	padding: 0;
-	font-size: 13pt;
+	font-size: 100%;
 	text-align: center;
 	font-family: Avenir Next, Helvetica, sans-serif;
 }
@@ -21,7 +21,7 @@ p {
 h1 {
 	margin: 3px 0px 0px 0px;
 	padding: 0;
-	font-size: 37pt;
+	font-size: 287%;
 	text-align: center;
 	font-family: Avenir Next, Helvetica, sans-serif;
 }
