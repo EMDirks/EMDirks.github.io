@@ -271,6 +271,83 @@ a:active { /* LINK STATE */
 	}
 }
 
+@media only screen and (max-device-width: 780px) { /* HORIZONTAL RESPONSIVE */
+
+	#hero-0 { /* MOBILE PROFILE - MAIN PARENT DIV */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-color: #ffffff;
+		display: block;
+		float: none;
+	}
+
+	#hero-1 { /* PLOT GURU */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/5q5pMm5.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-2 { /* DESKTOP PROFILE */
+		display: none;
+	}
+
+	#hero-3 { /* BEASTLY */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/YnUDmRZ.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-4 { /* BLUE LIZARD */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/UtRJiiN.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-5 { /* LIVID */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/TJGNOpl.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+
+	#hero-6 { /* LUTHER AND THE BOY */
+		width: 100%;
+		height: 38vh;
+		margin: 0;
+		padding: 0;
+		background-image: URL("http://i.imgur.com/1GQGLTO.jpg");
+		background-size: cover;
+		background-position: center center;
+		display: block;
+		float: none;
+	}
+}
+
 @media only screen and (max-height: 500px) { /* VERTICAL RESPONSIVE */
 	
 	#about-me-text { /* STOPS DISPLAYING MY PROFILE DESCRIPTION */
@@ -406,6 +483,7 @@ a:active { /* LINK STATE */
 	background-color: none;
 	margin: 60px 0px 60px 0px;
 	padding: 0;
+	z-index:;
 }
 
 #credits { /* USE FOR WORK CREDIT */
@@ -463,15 +541,6 @@ a:active { /* LINK STATE */
 
 /* ==================== BEGIN RESUME PAGE STYLING ==================== */
 
-#resume-info { /* REPONSIVE PARENT DIV */
-	width: 100vw;
-	height: 138px;
-	margin: 0 auto;
-	padding: 0;
-	background-color: none;
-	display: block;
-}
-
 ul {
     list-style-type: none;
     font-family: Avenir Next, Helvetica, Arial, sans-serif;
@@ -482,6 +551,19 @@ ul {
 	margin: 0 auto;
 	padding: 0;
 	line-height: 20px;
+}
+
+#resume-wrapper {
+	height: 12px;
+	width: 100vw;
+	margin: 50px 0px 33px 0px;
+}
+
+#resume-credits-wrapper { /* PARENT DIV OF CREDITS */
+	width: 100vw;
+	background-color: none;
+	margin: 0px 0px 50px 0px;
+	padding: 0;
 }
 
 .resume-text {
@@ -495,14 +577,30 @@ ul {
 
 #contact-info { /* REPONSIVE PARENT DIV */
 	width: 100vw;
-	height: 138px;
+	height: 40px;
 	margin: 0 auto;
 	padding: 0;
 	background-color: none;
 	display: block;
+	z-index: -1;
 }
 
+#contact-wrapper {
+	height: 12px;
+	width: 100vw;
+	margin: 50px 0px 33px 0px;
+}
+
+#resume-credits-wrapper { /* PARENT DIV OF CREDITS */
+	width: 100vw;
+	background-color: none;
+	margin: 0px 0px 50px 0px;
+	padding: 0;
+}
+
+
 /* ==================== END CONTACT PAGE STYLING ==================== */
+
 
 
 
