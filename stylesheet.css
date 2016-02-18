@@ -20,7 +20,7 @@ p {
 }
 
 h1 {
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	padding: 0;
 	font-size: 200%;
 	text-align: center;
@@ -127,7 +127,7 @@ span {
 	float: right;
 }
 
-@media only screen and (max-width: 780px) { /* Reformats hero images when desktop is scaled down horizontally */
+@media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
 
 	#hero-1 {
 		width: 100%;
@@ -154,7 +154,11 @@ span {
 	}
 }
 
-@media only screen and (max-device-width: 780px) { /* Reformats hero images on mobile devices */
+@media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
+
+	body {
+		font-size: 200%;
+	}
 
 	#hero-1 {
 		width: 100%;
