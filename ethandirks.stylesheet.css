@@ -273,57 +273,6 @@ a:active { /* LINK STATE */
 
 @media only screen and (max-device-width: 780px) { /* HORIZONTAL RESPONSIVE */
 
-	@media only screen and (max-width: 780px) { /* HORIZONTAL RESPONSIVE */
-
-	#hero-0 { /* MOBILE PROFILE - MAIN PARENT DIV */
-		width: 100%;
-		height: 38vh;
-		margin: 0;
-		padding: 0;
-		background-color: #ffffff;
-		display: block;
-		float: none;
-	}
-
-		h1 { /* USED FOR HOME PAGE NAME (ETHAN DIRKS) */
-		font-family: Avenir Next, Helvetica, Arial, sans-serif;
-		color: #606060;
-		font-size: 3em;
-		font-weight: 700;
-		text-align: center;
-		margin: 0;
-		padding: 0;
-		position: relative;
-		top: -3pt;
-	}
-
-	p { /* USED FOR MENU AND ALL DESCRIPTIVE TEXT */
-		font-family: Avenir Next, Helvetica, Arial, sans-serif;
-		color: #606060;
-		font-size: 13px;
-		font-weight: normal;
-		text-align: center;
-		margin: 0;
-		padding: 0;
-		line-height: 20px;
-	}
-
-	span { /* ALLOWS FOR PERFECT SPACING OF THE NAVIGATION MENU &NBSP */
-		letter-spacing: -1px;
-		color: #606060;
-	}
-
-	#menu-p { /* NAVIGATION MENU */
-		font-family: Avenir Next, Helvetica, Arial, sans-serif;
-		color: #606060;
-		font-size: 13px;
-		font-weight: normal;
-		text-align: center;
-		margin: 0;
-		padding: 0;
-	}
-
-
 	#hero-0 { /* MOBILE PROFILE - MAIN PARENT DIV */
 		width: 100%;
 		height: 38vh;
@@ -651,6 +600,9 @@ ul {
 
 
 /* ==================== END CONTACT PAGE STYLING ==================== */
+
+
+
 
 
 
