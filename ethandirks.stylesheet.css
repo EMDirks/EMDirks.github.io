@@ -291,9 +291,14 @@ a:active { /* LINK STATE */
 		font-size: 26px;
 	}
 	
-	#menu-p {
+	.menu-p {
 		font-size: 26px;
 	}
+	
+	#about-me { /* PARENT DIV OF ABOUT-ME-TEXT */
+		width: 540px;
+	}
+
 	
 	#ghost-and-hero-wrapper { /* ALLOWS FOR RESPONSIVE VERTICAL CENTERING */
 		width: 580px;
