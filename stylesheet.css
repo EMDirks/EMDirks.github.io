@@ -1,0 +1,143 @@
+/* ================= BEGIN DOCUMENT-WIDE STYLING ================= */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* ================= END DOCUMENT-WIDE STYLING ================= */
+
+/* ================= BEGIN INDEX PAGE STYLING ================= */
+
+#hero-1 {
+	width: 50%;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL();
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-2 {
+	width: 50%;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/5q5pMm5.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+#hero-3 {
+	width: 50%;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/YnUDmRZ.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-4 {
+	width: 50%;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/38ElnSj.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+#hero-5 {
+	width: 50%;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/TJGNOpl.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-6 {
+	width: 50%;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/1GQGLTO.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+@media only screen and (max-width: 780px) { /* Reformats hero images when desktop is scaled down horizontally */
+
+	#hero-1 {
+		width: 100%;
+	}
+
+	#hero-2 {
+		width: 100%;
+	}
+
+	#hero-3 {
+		width: 100%;
+	}
+
+	#hero-4 {
+		width: 100%;
+	}
+
+	#hero-5 {
+		width: 100%;
+	}
+
+	#hero-6 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-device-width: 780px) { /* Reformats hero images on mobile devices */
+
+	#hero-1 {
+		width: 100%;
+	}
+
+	#hero-2 {
+		width: 100%;
+	}
+
+	#hero-3 {
+		width: 100%;
+	}
+
+	#hero-4 {
+		width: 100%;
+	}
+
+	#hero-5 {
+		width: 100%;
+	}
+
+	#hero-6 {
+		width: 100%;
+	}
+}
+
+/* ================= END INDEX PAGE STYLING ================= */
