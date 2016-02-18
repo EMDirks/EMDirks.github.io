@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+		<title>Ethan Dirks</title>
+	</head>
+	<body>
+
+		<!-- =============== BEGIN HERO IMAGE STYLING =============== -->
+
+		<div id="hero-1"></div>
+		<div id="hero-2"></div>
+		<div id="hero-3"></div>
+		<div id="hero-4"></div>
+		<div id="hero-5"></div>
+		<div id="hero-6"></div>
+
+		<!-- =============== END HERO IMAGE STYLING =============== -->
+
+	</body>
+</html>
