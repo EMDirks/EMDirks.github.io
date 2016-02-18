@@ -159,6 +159,10 @@ span {
 	body {
 		font-size: 200%;
 	}
+	
+	#profile {
+		height: 40pt;
+	}
 
 	#hero-1 {
 		width: 100%;
