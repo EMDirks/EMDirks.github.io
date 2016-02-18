@@ -282,6 +282,10 @@ a:active { /* LINK STATE */
 		display: block;
 		float: none;
 	}
+	
+	h1 {
+		font-size: 200px;
+	}
 
 	#hero-1 { /* PLOT GURU */
 		width: 100%;
