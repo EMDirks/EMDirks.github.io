@@ -294,6 +294,7 @@ a:active { /* LINK STATE */
 	
 	#menu-p {
 		font-size: 26px;
+		line-height: 40px;
 	}
 	
 	#about-me { /* PARENT DIV OF ABOUT-ME-TEXT */
