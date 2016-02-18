@@ -34,20 +34,20 @@ p { /* USED FOR MENU AND ALL DESCRIPTIVE TEXT */
 	margin: 0;
 	padding: 0;
 	line-height: 20px;
-}
+}		
 
 span { /* ALLOWS FOR PERFECT SPACING OF THE NAVIGATION MENU &NBSP */
 	letter-spacing: -1px;
 	color: #606060;
 }
 
-#menu-p { /* NAVIGATION MENU */
+.menu-p { /* NAVIGATION MENU */
 	font-family: Avenir Next, Helvetica, Arial, sans-serif;
 	color: #606060;
 	font-size: 13px;
 	font-weight: normal;
 	text-align: center;
-	margin: 0;
+	margin: 0px 0px 10px 0px;
 	padding: 0;
 }
 
@@ -282,7 +282,7 @@ a:active { /* LINK STATE */
 		display: block;
 		float: none;
 	}
-	
+
 	h1 {
 		font-size: 81px;
 	}
@@ -516,7 +516,7 @@ a:active { /* LINK STATE */
 	text-align: justify;
 	color: #606060;
 	line-height: 20px;
-}
+}		
 
 #credits-wrapper { /* PARENT DIV OF CREDITS */
 	width: 100vw;
@@ -536,7 +536,7 @@ a:active { /* LINK STATE */
 	margin: 0 auto;
 	padding: 0;
 	line-height: 20px;
-}
+}		
 
 #feature-wrapper { /* CONTAINS ALL FEATURE BUBBLES */
 	width: 600px;
@@ -591,7 +591,7 @@ ul {
 	margin: 0 auto;
 	padding: 0;
 	line-height: 20px;
-}
+}		
 
 #resume-wrapper {
 	height: 12px;
@@ -609,41 +609,6 @@ ul {
 .resume-text {
 	text-indent: 25px;
 	line-height: 20px;
-}
+}		
 
 /* ==================== END RESUME PAGE STYLING ==================== */
-
-/* ==================== BEGIN CONTACT PAGE STYLING ==================== */
-
-#contact-info { /* REPONSIVE PARENT DIV */
-	width: 100vw;
-	height: 40px;
-	margin: 0 auto;
-	padding: 0;
-	background-color: none;
-	display: block;
-	z-index: -1;
-}
-
-#contact-wrapper {
-	height: 12px;
-	width: 100vw;
-	margin: 50px 0px 33px 0px;
-}
-
-#resume-credits-wrapper { /* PARENT DIV OF CREDITS */
-	width: 100vw;
-	background-color: none;
-	margin: 0px 0px 50px 0px;
-	padding: 0;
-}
-
-
-/* ==================== END CONTACT PAGE STYLING ==================== */
-
-
-
-
-
-
-
