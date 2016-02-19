@@ -34,7 +34,7 @@ span {
 
 #menu {
 	width: 100%;
-	height: 50px;
+	height: 2em;
 	background-color: #000000;
 	margin: 0;
 	padding: 0;
@@ -48,8 +48,9 @@ span {
 }
 
 .menu-text {
-	margin: 15px 0px 0px 0px;
+	margin: .4em 0px 0px 0px;
 	color: #ffffff;
+	background-color: none;
 }
 
 /* ================= END DOCUMENT-WIDE STYLING ================= */
@@ -58,7 +59,7 @@ span {
 
 #hero-1 {
 	width: 50%;
-	height: 40vh;
+	height: 37vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL();
@@ -81,7 +82,7 @@ span {
 #profile {
 	background-color: none;
 	width: 95%;
-	height: 60pt;
+	height: 55pt;
 	display: inline-block;
 	margin: 0pt 0pt 0pt 4pt;
 	padding: 0;
@@ -90,7 +91,7 @@ span {
 
 #hero-2 {
 	width: 50%;
-	height: 40vh;
+	height: 37vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/5q5pMm5.jpg");
@@ -102,7 +103,7 @@ span {
 
 #hero-3 {
 	width: 50%;
-	height: 40vh;
+	height: 37vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/YnUDmRZ.jpg");
@@ -114,7 +115,7 @@ span {
 
 #hero-4 {
 	width: 50%;
-	height: 40vh;
+	height: 37vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/38ElnSj.jpg");
@@ -126,7 +127,7 @@ span {
 
 #hero-5 {
 	width: 50%;
-	height: 40vh;
+	height: 37vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/TJGNOpl.jpg");
@@ -138,7 +139,7 @@ span {
 
 #hero-6 {
 	width: 50%;
-	height: 40vh;
+	height: 37vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/1GQGLTO.jpg");
@@ -184,7 +185,7 @@ span {
 	#profile {
 		height: 100pt;
 	}
-	
+
 	#menu {
 		height: 72px;
 	}
