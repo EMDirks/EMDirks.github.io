@@ -189,6 +189,11 @@ span {
 	#menu {
 		height: 72px;
 	}
+	
+	.menu-text {
+		margin: .6em 0px 0px 0px;
+	}
+
 
 	#hero-1 {
 		width: 100%;
