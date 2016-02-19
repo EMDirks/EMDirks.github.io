@@ -195,7 +195,7 @@ span {
 	}
 
 	#menu {
-		height: 72px;
+		height: 1em;
 	}
 
 	.menu-text {
@@ -204,32 +204,32 @@ span {
 
 	#hero-1 {
 		width: 100%;
-		height: 550px;
+		height: 275px;
 	}
 
 	#hero-2 {
 		width: 100%;
-		height: 550px;
+		height: 275px;
 	}
 
 	#hero-3 {
 		width: 100%;
-		height: 550px;
+		height: 275px;
 	}
 
 	#hero-4 {
 		width: 100%;
-		height: 550px;
+		height: 275px;
 	}
 
 	#hero-5 {
 		width: 100%;
-		height: 550px;
+		height: 275px;
 	}
 
 	#hero-6 {
 		width: 100%;
-		height: 550px;
+		height: 275px;
 	}
 }
 
