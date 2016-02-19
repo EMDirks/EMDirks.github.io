@@ -17,6 +17,7 @@ p {
 	font-size: 90%;
 	text-align: center;
 	font-family: Avenir Next, Helvetica, sans-serif;
+	line-height: 200%;
 }
 
 h1 {
@@ -35,7 +36,7 @@ span {
 #menu {
 	width: 100%;
 	height: 2em;
-	background-color: #000000;
+	background-color: #151515;
 	margin: 0;
 	padding: 0;
 }
@@ -51,6 +52,7 @@ span {
 	margin: .4em 0px 0px 0px;
 	color: #ffffff;
 	background-color: none;
+	line-height: 140%;
 }
 
 /* ================= END DOCUMENT-WIDE STYLING ================= */
@@ -250,3 +252,53 @@ span {
 }
 
 /* ================= END INDEX PAGE STYLING ================= */
+
+/* ================= BEGIN WORK PAGE STYLING ================= */
+
+#work-banner-wrapper {
+	width: 100%;
+	height: 275px;
+	background-color: none;
+}
+
+#work-banner-black-bar {
+	width: 100%;
+	height: 2em;
+	background-color: #151515;
+	margin: 0;
+	padding: 0;
+}
+
+#work-banner {
+	width: 50%;
+	height: 275px;
+	margin: 0 auto;
+	padding: 0;
+	background-image: URL();
+	background-size: cover;
+	background-position: center center;
+	background-color: none;
+	position: relative;
+	top: -2em;
+}
+
+#work-profile {
+	width: 65%;
+	height: 275px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
+	#work-banner {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
+	#work-banner {
+		width: 100%;
+	}
+}
+
+
+/* ================= END WORK PAGE STYLING ================= */
