@@ -288,6 +288,20 @@ span {
 	margin: 0 auto;
 }
 
+#feature-wrapper {
+	width: 60%;
+	margin: 0 auto;
+	padding: 70px 0px 0px 0px;
+	text-align: center;
+}
+
+.feature {
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	margin: 15px;
+}
+
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
 	#work-banner {
 		width: 100%;
@@ -295,6 +309,17 @@ span {
 
 	#work-profile {
 		width: 250px;
+	}
+
+	#feature-wrapper {
+		width: 75%;
+		padding: 100px 0px 0px 0px;
+	}
+
+	.feature {
+		margin: 8px;
+		width: 75px;
+		height: 75px;
 	}
 }
 
