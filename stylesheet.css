@@ -87,6 +87,8 @@ span {
 	margin: 0pt 0pt 0pt 4pt;
 	padding: 0;
 	vertical-align: middle;
+	position: relative;
+	top: -1em;
 }
 
 #hero-2 {
