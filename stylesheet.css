@@ -155,34 +155,40 @@ span {
 
 	#hero-1 {
 		width: 100%;
+		height: 275px;
 	}
 
 	#hero-2 {
 		width: 100%;
+		height: 275px;
 	}
 
 	#hero-3 {
 		width: 100%;
+		height: 275px;
 	}
 
 	#hero-4 {
 		width: 100%;
+		height: 275px;
 	}
 
 	#hero-5 {
 		width: 100%;
+		height: 275px;
 	}
 
 	#hero-6 {
 		width: 100%;
+		height: 275px;
 	}
 }
 
 @media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
 
-	body {
-		font-size: 200%;
-	}
+	/*body {
+		font-size: 100%;
+	}*/
 
 	#profile {
 		height: 100pt;
