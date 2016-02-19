@@ -283,7 +283,7 @@ span {
 }
 
 #work-profile {
-	width: 65%;
+	width: 400px;
 	height: 275px;
 	margin: 0 auto;
 }
@@ -292,13 +292,21 @@ span {
 	#work-banner {
 		width: 100%;
 	}
+
+	#work-profile {
+		width: 300px;
+	}
 }
 
 @media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
 	#work-banner {
 		width: 100%;
 	}
+
+	#work-profile {
+		width: 300px;
+	}
 }
 
 
-/* ================= END WORK PAGE STYLING ================== */
+/* ================= END WORK PAGE STYLING ================= */
