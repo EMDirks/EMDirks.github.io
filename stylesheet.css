@@ -3,6 +3,7 @@
 html {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 body {
@@ -302,6 +303,18 @@ span {
 	margin: 15px;
 }
 
+#comp-holder {
+	width: 100%;
+}
+
+.comp {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
 	#work-banner {
 		width: 100%;
@@ -321,6 +334,12 @@ span {
 		width: 75px;
 		height: 75px;
 	}
+
+	#comp-holder {
+		width: 140%;
+		position: relative;
+		left: -21%;
+	}
 }
 
 @media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
@@ -331,7 +350,23 @@ span {
 	#work-profile {
 		width: 250px;
 	}
-}
 
+	#feature-wrapper {
+		width: 75%;
+		padding: 100px 0px 0px 0px;
+	}
+
+	.feature {
+		margin: 8px;
+		width: 75px;
+		height: 75px;
+	}
+
+	#comp-holder {
+		width: 140%;
+		position: relative;
+		left: -21%;
+	}
+}
 
 /* ================= END WORK PAGE STYLING ================= */
