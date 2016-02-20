@@ -56,6 +56,27 @@ span {
 	line-height: 140%;
 }
 
+a:link { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:visited { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:active { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: none;
+	opacity: .5;
+}
+
 /* ================= END DOCUMENT-WIDE STYLING ================= */
 
 /* ================= BEGIN INDEX PAGE STYLING ================= */
@@ -292,7 +313,7 @@ span {
 #feature-wrapper {
 	width: 60%;
 	margin: 0 auto;
-	padding: 70px 0px 0px 0px;
+	padding: 70px 0px 70px 0px;
 	text-align: center;
 }
 
@@ -305,6 +326,8 @@ span {
 
 #comp-holder {
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .comp {
@@ -314,6 +337,14 @@ span {
 	padding: 0;
 	display: block;
 }
+
+#team {
+	width: 300px;
+	height: auto;
+	padding: 90px 0px 85px 0px;
+	margin: 0 auto;
+}
+
 
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
 	#work-banner {
@@ -326,7 +357,7 @@ span {
 
 	#feature-wrapper {
 		width: 75%;
-		padding: 100px 0px 0px 0px;
+		padding: 100px 0px 70px 0px;
 	}
 
 	.feature {
