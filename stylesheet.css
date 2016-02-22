@@ -28,7 +28,7 @@ h1 {
 	font-size: 200%;
 	text-align: center;
 	font-family: Avenir Next, Helvetica, sans-serif;
-	font-weight: 700;
+	font-weight: 800;
 }
 
 span {
@@ -95,7 +95,7 @@ a:active { /* LINK STATE */
 	height: 275px;
 	margin: 0;
 	padding: 0;
-	background-image: URL();
+	background-image: URL("http://i.imgur.com/SP3Pot5.png");
 	background-size: cover;
 	background-position: center center;
 	display: block;
