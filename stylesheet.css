@@ -448,6 +448,37 @@ ul {
 .resume-text {
 	text-indent: 25px;
 	line-height: 20px;
-}		
+}
+
+#resume-banner-wrapper {
+	width: 100%;
+	height: 2em;
+	background-color: none;
+}
+
+#resume-banner {
+	width: 50%;
+	height: 2em;
+	margin: 0 auto;
+	padding: 0;
+	background-image: URL();
+	background-size: cover;
+	background-position: center center;
+	background-color: none;
+	position: relative;
+	top: -2em;
+}	
+
+@media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
+	#resume-banner {
+		width: 100%;
+	}
+}	
+
+@media only screen and (max-device-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
+	#resume-banner {
+		width: 100%;
+	}
+}	
 
 /* ==================== END RESUME PAGE STYLING ==================== */
