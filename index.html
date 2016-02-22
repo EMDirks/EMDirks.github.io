@@ -1,45 +1,453 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Ethan Dirks</title>
-	</head>
-	<body>
+/* ================= BEGIN DOCUMENT-WIDE STYLING ================= */
 
-<!-- =============== BEGIN HERO IMAGE SECTION =============== -->
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
 
-		<div id="hero-1">
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	overflow-x: hidden;
+}
 
-			<div id="menu">
-				<div class="menu-item">
-					<p class="menu-text"><a href="http://emdirks.github.io/index.html">work</a></p>
-				</div>
-				<div class="menu-item">
-					<p class="menu-text"><a href="http://emdirks.github.io/resume.html">resume</a></p>
-				</div>
-				<div class="menu-item">
-					<p class="menu-text"><a href="http://emdirks.github.io/dreamboy-advance.html">dreamboy</a></p>
-				</div>
-				<div class="menu-item">
-					<p class="menu-text"><a href="http://emdirks.github.io/contact.html">contact</a></p>
-				</div>
-			</div>
+p {
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	text-align: justify;
+	font-family: Avenir Next, Helvetica, sans-serif;
+	line-height: 200%;
+}
 
-				<!--<div id="ghost"></div>
-				<div id="profile">
-					<h1>ETHAN THE DIRKS</h1>
-					<p style="text-align: center">Art Director, UI Designer, Part-Time Wizard</p>
-				</div>-->
+h1 {
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	font-size: 200%;
+	text-align: center;
+	font-family: Avenir Next, Helvetica, sans-serif;
+	font-weight: 700;
+}
 
-		</div>
-		<a href="http://emdirks.github.io/plot-guru.html"><div id="hero-2"></div></a>
-		<a href="http://emdirks.github.io/beastly.html"><div id="hero-3"></div></a>
-		<div id="hero-4"></div>
-		<div id="hero-5"></div>
-		<div id="hero-6"></div>
+span {
+	letter-spacing: 1px;
+}
 
-<!-- =============== END HERO IMAGE SECTION =============== -->
+#spacer {
+	width: 100vw;
+	height: 85px;
+	margin: 0;
+	padding: 0;
+}
 
-	</body>
-</html>
+#menu {
+	width: 100%;
+	height: 2em;
+	background-color: #151515;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-item {
+	display: inline-block;
+	width: 24%;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-text {
+	margin: .4em 0em 0em 0em;
+	color: #ffffff;
+	background-color: none;
+	line-height: 140%;
+	text-align: center;
+}
+
+a:link { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:visited { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:active { /* LINK STATE */
+	color: #ffffff;
+	text-decoration: none;
+	opacity: .5;
+}
+
+/* ================= END DOCUMENT-WIDE STYLING ================= */
+
+/* ================= BEGIN INDEX PAGE STYLING ================= */
+
+#hero-1 {
+	width: 50%;
+	height: 275px;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/0vTAVM1.png");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#ghost {
+	background-color: none;
+	width: 1px;
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+#profile {
+	background-color: none;
+	width: 95%;
+	height: 55pt;
+	display: inline-block;
+	margin: 0pt 0pt 0pt 4pt;
+	padding: 0;
+	vertical-align: middle;
+	position: relative;
+	top: -1em;
+}
+
+#hero-2 {
+	width: 50%;
+	height: 275px;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/5q5pMm5.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+#hero-3 {
+	width: 50%;
+	height: 275px;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/YnUDmRZ.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-4 {
+	width: 50%;
+	height: 275px;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/38ElnSj.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+#hero-5 {
+	width: 50%;
+	height: 275px;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/TJGNOpl.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-6 {
+	width: 50%;
+	height: 275px;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/1GQGLTO.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
+
+@media (min-width:1800px) {
+	#hero-1 {
+		width: 50%;
+		height: 325px;
+	}
+
+	#hero-2 {
+		width: 50%;
+		height: 325px;
+	}
+
+	#hero-3 {
+		width: 50%;
+		height: 325px;
+	}
+
+	#hero-4 {
+		width: 50%;
+		height: 325px;
+	}
+
+	#hero-5 {
+		width: 50%;
+		height: 325px;
+	}
+
+	#hero-6 {
+		width: 50%;
+		height: 325px;
+	}
+}
+
+@media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
+
+	#hero-1 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-2 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-3 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-4 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-5 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-6 {
+		width: 100%;
+		height: 240px;
+	}
+}
+
+@media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
+
+	#hero-1 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-2 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-3 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-4 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-5 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-6 {
+		width: 100%;
+		height: 240px;
+	}
+}
+
+/* ================= END INDEX PAGE STYLING ================= */
+
+/* ================= BEGIN WORK PAGE STYLING ================= */
+
+#work-banner-wrapper {
+	width: 100%;
+	height: 275px;
+	background-color: none;
+}
+
+#work-banner-black-bar {
+	width: 100%;
+	height: 2em;
+	background-color: #151515;
+	margin: 0;
+	padding: 0;
+}
+
+#work-banner {
+	width: 50%;
+	height: 275px;
+	margin: 0 auto;
+	padding: 0;
+	background-image: URL();
+	background-size: cover;
+	background-position: center center;
+	background-color: none;
+	position: relative;
+	top: -2em;
+}
+
+#work-profile {
+	width: 300px;
+	height: 275px;
+	margin: 0 auto;
+}
+
+#feature-wrapper {
+	width: 60%;
+	margin: 0 auto;
+	padding: 70px 0px 70px 0px;
+	text-align: center;
+}
+
+.feature {
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	margin: 15px;
+}
+
+#comp-holder {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.comp {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+#team {
+	width: 300px;
+	height: auto;
+	padding: 90px 0px 85px 0px;
+	margin: 0 auto;
+	position: relative;
+	left: -7px;
+}
+
+
+@media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
+	
+	#spacer {
+		height: 120px;
+	}
+
+	#work-banner {
+		width: 100%;
+	}
+
+	#work-profile {
+		width: 260px;
+	}
+
+	#team {
+		width: 260px;
+		left: 2px;
+	}
+
+	#feature-wrapper {
+		width: 75%;
+		padding: 100px 0px 70px 0px;
+	}
+
+	.feature {
+		margin: 8px;
+		width: 75px;
+		height: 75px;
+	}
+
+	#comp-holder {
+		width: 140%;
+		position: relative;
+		left: -21%;
+	}
+}
+
+@media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
+	
+	#spacer {
+		height: 120px;
+	}
+
+	#work-banner {
+		width: 100%;
+	}
+
+	#work-profile {
+		width: 260px;
+	}
+
+	#team {
+		width: 260px;
+		left: 2px;
+	}
+
+	#feature-wrapper {
+		width: 75%;
+		padding: 100px 0px 70px 0px;
+	}
+
+	.feature {
+		margin: 8px;
+		width: 75px;
+		height: 75px;
+	}
+
+	#comp-holder {
+		width: 140%;
+		position: relative;
+		left: -21%;
+	}
+}
+
+/* ================= END WORK PAGE STYLING ================= */
+
+/* ==================== BEGIN RESUME PAGE STYLING ==================== */
+
+ul {
+    list-style-type: none;
+    font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 95%;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 200%;
+}	
+
+.resume-text {
+	text-indent: 25px;
+	line-height: 20px;
+}		
+
+/* ==================== END RESUME PAGE STYLING ==================== */
