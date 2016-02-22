@@ -344,17 +344,23 @@ a:active { /* LINK STATE */
 	height: auto;
 	padding: 90px 0px 85px 0px;
 	margin: 0 auto;
+	position: relative;
+	left: -7px;
 }
 
 
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
-	
 	#work-banner {
 		width: 100%;
 	}
 
 	#work-profile {
-		width: 250px;
+		width: 260px;
+	}
+
+	#team {
+		width: 260px;
+		left: -3px;
 	}
 
 	#feature-wrapper {
@@ -381,7 +387,12 @@ a:active { /* LINK STATE */
 	}
 
 	#work-profile {
-		width: 250px;
+		width: 260px;
+	}
+
+	#team {
+		width: 260px;
+		left: 0px;
 	}
 
 	#feature-wrapper {
@@ -403,3 +414,22 @@ a:active { /* LINK STATE */
 }
 
 /* ================= END WORK PAGE STYLING ================= */
+
+/* ==================== BEGIN RESUME PAGE STYLING ==================== */
+
+ul {
+    list-style-type: none;
+    font-family: Avenir Next, Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 95%;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 200%;
+}	
+
+.resume-text {
+	text-indent: 25px;
+	line-height: 20px;
+}		
+
+/* ==================== END RESUME PAGE STYLING ==================== */
