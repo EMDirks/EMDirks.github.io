@@ -388,9 +388,9 @@ a:active { /* LINK STATE */
 	}
 
 	#comp-holder {
-		width: 140%;
+		width: 120%;
 		position: relative;
-		left: -21%;
+		left: -10%;
 	}
 }
 
