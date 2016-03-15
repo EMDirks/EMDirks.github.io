@@ -95,7 +95,7 @@ a:active { /* LINK STATE */
 	height: 34vh;
 	margin: 0;
 	padding: 0;
-	background-image: URL("http://i.imgur.com/Ad2ORsn.png");
+	/*background-image: URL("http://i.imgur.com/Ad2ORsn.png");*/
 	background-size: cover;
 	background-position: center center;
 	display: block;
@@ -482,4 +482,14 @@ ul {
 }	
 
 /* ==================== END RESUME PAGE STYLING ==================== */
-================== */
+
+/* ==================== BEGIN ABOUT PAGE STYLING ==================== */
+
+.img-about {
+	width: 100%;
+	height: auto;
+	margin: 30px 0px 30px 0px;
+}
+
+/* ==================== END ABOUT PAGE STYLING ==================== */
+
