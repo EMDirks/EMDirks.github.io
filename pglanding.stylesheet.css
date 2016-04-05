@@ -7,6 +7,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 100%;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
 	position: relative;
 	top: 100px;
 	font-family: Raleway, Helvetica, sans-serif;
-	font-size: 1.8em;
+	font-size: 200%;
 	color: #ffffff;
 	line-height: 150%;
 }
