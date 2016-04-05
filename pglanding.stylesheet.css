@@ -2,7 +2,6 @@ html {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	font-size: 100%;
 }
 
 body {
@@ -11,112 +10,30 @@ body {
 }
 
 h1 {
+	margin: 0em 2em 2em 2em;
 	text-align: center;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 50px;
-	margin-right: 50px;
-	padding: 0;
 	position: relative;
-	top: 17%;
-	color: #ffffff;
+	top: 100px;
 	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1.8em;
+	color: #ffffff;
 	line-height: 150%;
 }
 
-p {
-	text-align: left;
-	margin-top: 0;
-	margin-bottom: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
-	padding: 0;
-	color: #ffffff;
-	font-family: Raleway, Helvetica, sans-serif;
-	line-height: 180%;
-}
-
-form {
-	text-align: center;
-	margin: 0 auto;
-	border: none;
-	padding: 0;
-	background: #ffffff;
-	height: 40px;
-	width: 300px;
-}
-
-
-input[type=text] {
-	height: 34px; 
-	width: 210px; 
-	border: none;
-	margin: 2px;
-	background: #ffffff;
-	color: #1ec47a;
-	text-align: center;
-	font-size: 100%;
-	font-family: Raleway, Helvetica, sans-serif;
-}
-
-input[type=text]:active {
-	outline-style: none;
-}
-
-input[type=text]:focus {
-	outline-style: none;
-}
-
-input[type=submit] {
-	height: 34px; 
-	width: 74px;
-	border: none;
-	margin: 0px;
-	background: #1ec47a;
-	color: #ffffff;
-	text-align: center;
-	font-size: 100%;
-	font-family: Raleway, Helvetica, sans-serif;
-}
-
-input[type=submit]:hover {
-	background: #24e38e;
-}
-
-input[type=submit]:active {
-	outline-style: none;
-}
-
-input[type=submit]:focus {
-	outline-style: none;
-}
-
 #div-hero {
+	margin: 0;
+	padding: 0;
 	width: 100vw;
-	height: 600px;
-	background-color: #E72450;
+	height: 37em;
+	background-color: #e6385b
 }
 
 #div-signup {
-	width: 400px;
-	height: 125px;
-	background-color: none;
-	margin-top: 200px;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	padding: 0;
-	z-index: 1;
-}
-
-#div-wrapper-img-slanted-phone {
-	height: 250px;
-	width: 100vw;
-	background-color: #E72450;
-	margin: 0;
-	padding: 0;
-	background-image: URL("http://i.imgur.com/FyOVYAz.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: auto 250px;
+	width: 25em;
+	height: 8em;
+	background-color: red;
+	position: relative;
+	top: 8.5em;
 }
