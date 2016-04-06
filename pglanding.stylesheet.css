@@ -42,6 +42,7 @@ form {
 	width: 20em;
 	margin: .5em 0em 0em 0em;
 	padding: 0;
+	-webkit-appearance: none;
 }
 
 input[type=text] {
@@ -56,14 +57,17 @@ input[type=text] {
 	font-family: Raleway, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
+	-webkit-appearance: none;
 }
 
 input[type=text]:active {
 	outline-style: none;
+	-webkit-appearance: none;
 }
 
 input[type=text]:focus {
 	outline-style: none;
+	-webkit-appearance: none;
 }
 
 input[type=submit] {
@@ -77,18 +81,22 @@ input[type=submit] {
 	font-family: Raleway, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
+	-webkit-appearance: none;
 }
 
 input[type=submit]:hover {
 	background: #24e38e;
+	-webkit-appearance: none;
 }
 
 input[type=submit]:active {
 	outline-style: none;
+	-webkit-appearance: none;
 }
 
 input[type=submit]:focus {
 	outline-style: none;
+	-webkit-appearance: none;
 }
 
 #div-hero {
@@ -108,6 +116,5 @@ input[type=submit]:focus {
 	position: relative;
 	top: 8.5em;
 }
-
 
 
