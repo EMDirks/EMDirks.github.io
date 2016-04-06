@@ -21,6 +21,76 @@ h1 {
 	line-height: 150%;
 }
 
+p {
+	margin: 0em;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	line-height: 180%;
+}
+
+form {
+	/* Styles the form */
+	border-style: solid;
+	border-color: #ffffff;
+	border-right-width: .1em;
+	border-left-width: .15em;
+	border-top-width: .15em;
+	border-bottom-width: .15em; 
+	background: #ffffff;
+	height: 2em;
+	width: 20em;
+	margin: .5em 0em 0em 0em;
+	padding: 0;
+}
+
+input[type=text] {
+	height: 2em;
+	width: 15em;
+	border: none;
+	background: #ffffff;
+	color: #1ec47a;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 400;
+	font-family: Raleway, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+input[type=text]:active {
+	outline-style: none;
+}
+
+input[type=text]:focus {
+	outline-style: none;
+}
+
+input[type=submit] {
+	height: 2em;
+	width: 4.7em;
+	border: none;
+	background: #1ec47a;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 400;
+	font-family: Raleway, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+input[type=submit]:hover {
+	background: #24e38e;
+}
+
+input[type=submit]:active {
+	outline-style: none;
+}
+
+input[type=submit]:focus {
+	outline-style: none;
+}
+
 #div-hero {
 	margin: 0;
 	padding: 0;
@@ -32,9 +102,12 @@ h1 {
 #div-signup {
 	margin: 0 auto;
 	padding: 0;
-	width: 25em;
-	height: 8em;
-	background-color: red;
+	width: 20.2em;
+	height: 6.35em;
+	background-color: none;
 	position: relative;
 	top: 8.5em;
 }
+
+
+
