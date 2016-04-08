@@ -211,37 +211,6 @@ input[type=submit]:focus {
 }
 
 @media only screen and (max-width: 720px) {
-	h1 {
-		font-size: 1.8em;
-		top: 3em;
-		margin: 0em 2.5em 1em 2.5em;
-	}
-
-	p {
-		font-size: .85em;
-		line-height: 170%;
-	}
-
-	form {
-		/* Styles the form */
-		width: 17.5em;
-	}
-
-	input[type=text] {
-		width: 12.55em;
-		font-size: 1em;
-	}
-
-	input[type=submit] {
-		width: 4.7em;
-		font-size: 1em;
-	}
-
-	#div-signup {
-		width: 17.5em;
-		height: 6em;
-	}
-
 	.div-wrapper-walkthrough-white {
 		height: 50em;
 	}
@@ -276,5 +245,42 @@ input[type=submit]:focus {
 
 	.div-walkthrough-text-black > p {
 		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	h1 {
+		font-size: 1.8em;
+		top: 3em;
+		margin: 0em 2em 1em 2em;
+	}
+
+	p {
+		font-size: .85em;
+		line-height: 170%;
+	}
+
+	form {
+		/* Styles the form */
+		width: 17.5em;
+	}
+
+	input[type=text] {
+		width: 12.55em;
+		font-size: 1em;
+	}
+
+	input[type=submit] {
+		width: 4.7em;
+		font-size: 1em;
+	}
+
+	#div-signup {
+		width: 17.5em;
+		height: 6em;
+	}
+
+	#div-slanted-phone {
+		background-image: none;
 	}
 }
