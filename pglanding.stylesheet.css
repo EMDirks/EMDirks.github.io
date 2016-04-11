@@ -11,10 +11,9 @@ body {
 }
 
 h1 {
-	margin: 0em 2.5em 2em 2.5em;
+	margin: 0em 2.5em 2.8em 2.5em;
+	padding: 3em 0em 0em 0em;
 	text-align: center;
-	position: relative;
-	top: 3.4em;
 	font-family: Raleway, Helvetica, sans-serif;
 	font-size: 2em;
 	color: #ffffff;
@@ -108,40 +107,36 @@ input[type=submit]:focus {
 #div-hero {
 	margin: 0;
 	width: 100vw;
-	height: 37em;
+	height: auto;
 	background-color: #fa0d52;
-}
-
-#div-signup {
-	margin: 0 auto;
-	padding: 0;
-	width: 20.2em;
-	height: 6.35em;
-	background-color: none;
-	position: relative;
-	top: 8.5em;
 }
 
 #div-slanted-phone {
 	width: 100%;
 	height: 15em;
-	background-color: #fa0d52;
-	background-image: URL("http://i.imgur.com/FyOVYAz.png");
+	background-color: none;
+	background-image: URL("http://i.imgur.com/GXxunpY.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: auto 15em;
-	margin: 9em 0em 0em 0em;
-	padding: 0em;
+	background-size: auto 10em;
+	margin: 0;
+	padding: 0;
 }
 
-#div-downward-arrow {
+#div-hero-bottom {
+	margin: 0;
+	padding: 6em 0em 6.5em 0em;
 	width: 100vw;
-	height: 7em;
-	background-color: #ffffff;
-	background-image: URL("http://i.imgur.com/3QnrM90.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: auto 2em;
+	height: auto;
+	background-color: #fa0d52;
+}
+
+.div-signup {
+	margin: 0 auto;
+	padding: 0;
+	width: 20.2em;
+	height: 6.35em;
+	background-color: none;
 }
 
 .div-wrapper-walkthrough-white {
@@ -211,6 +206,39 @@ input[type=submit]:focus {
 }
 
 @media only screen and (max-width: 720px) {
+
+	h1 {
+		font-size: 1.8em;
+		margin: 0em 2em 1em 2em;
+		padding: 1.8em 0em .5em 0em;
+	}
+
+	p {
+		font-size: .85em;
+		line-height: 170%;
+	}
+
+	form {
+		/* Styles the form */
+		width: 17.5em;
+	}
+
+	input[type=text] {
+		width: 12.55em;
+		font-size: 1em;
+	}
+
+	input[type=submit] {
+		width: 4.7em;
+		font-size: 1em;
+	}
+
+	.div-signup {
+		width: 17.5em;
+		height: 6em;
+		top: 5em;
+	}
+
 	.div-wrapper-walkthrough-white {
 		height: 50em;
 	}
@@ -241,46 +269,19 @@ input[type=submit]:focus {
 
 	.div-walkthrough-text-white > p {
 		font-size: 1em;
+		text-align: center;
 	}
 
 	.div-walkthrough-text-black > p {
 		font-size: 1em;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-	h1 {
-		font-size: 1.8em;
-		top: 3em;
-		margin: 0em 2em 1em 2em;
+		text-align: center;
 	}
 
-	p {
-		font-size: .85em;
-		line-height: 170%;
+	.div-walkthrough-text-white > h2 {
+		text-align: center;
 	}
 
-	form {
-		/* Styles the form */
-		width: 17.5em;
-	}
-
-	input[type=text] {
-		width: 12.55em;
-		font-size: 1em;
-	}
-
-	input[type=submit] {
-		width: 4.7em;
-		font-size: 1em;
-	}
-
-	#div-signup {
-		width: 17.5em;
-		height: 6em;
-	}
-
-	#div-slanted-phone {
-		background-image: none;
+	.div-walkthrough-text-black > h2 {
+		text-align: center;
 	}
 }
