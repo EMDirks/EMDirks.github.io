@@ -92,7 +92,7 @@ a:active { /* LINK STATE */
 
 #hero-1 {
 	width: 50%;
-	height: 34vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	/*background-image: URL("http://i.imgur.com/Ad2ORsn.png");*/
@@ -126,7 +126,7 @@ a:active { /* LINK STATE */
 
 #hero-2 {
 	width: 50%;
-	height: 34vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/xSUq7IW.jpg");
@@ -138,7 +138,7 @@ a:active { /* LINK STATE */
 
 #hero-3 {
 	width: 50%;
-	height: 33vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/g7RGYRZ.jpg");
@@ -150,7 +150,7 @@ a:active { /* LINK STATE */
 
 #hero-4 {
 	width: 50%;
-	height: 33vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/u2R7Qpr.jpg");
@@ -162,7 +162,7 @@ a:active { /* LINK STATE */
 
 #hero-5 {
 	width: 50%;
-	height: 33vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/ztftK5p.jpg");
@@ -174,7 +174,7 @@ a:active { /* LINK STATE */
 
 #hero-6 {
 	width: 50%;
-	height: 33vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/spmHvH1.jpg");
@@ -186,7 +186,7 @@ a:active { /* LINK STATE */
 
 #hero-7 {
 	width: 50%;
-	height: 33vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/4fOWdu0.jpg");
@@ -198,7 +198,7 @@ a:active { /* LINK STATE */
 
 #hero-8 {
 	width: 50%;
-	height: 33vh;
+	height: 32vh;
 	margin: 0;
 	padding: 0;
 	background-image: URL("http://i.imgur.com/rVCNlby.jpg");
@@ -211,42 +211,42 @@ a:active { /* LINK STATE */
 @media (min-width:1800px) {
 	#hero-1 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 
 	#hero-2 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 
 	#hero-3 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 
 	#hero-4 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 
 	#hero-5 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 
 	#hero-6 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 
 	#hero-7 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 
 	#hero-8 {
 		width: 50%;
-		height: 325px;
+		height: 300px;
 	}
 }
 
