@@ -165,7 +165,7 @@ a:active { /* LINK STATE */
 	height: 33vh;
 	margin: 0;
 	padding: 0;
-	background-image: URL("http://i.imgur.com/spmHvH1.jpg");
+	background-image: URL("http://i.imgur.com/ztftK5p.jpg");
 	background-size: cover;
 	background-position: center center;
 	display: block;
@@ -177,11 +177,35 @@ a:active { /* LINK STATE */
 	height: 33vh;
 	margin: 0;
 	padding: 0;
-	background-image: URL("http://i.imgur.com/4fOWdu0.jpg");
+	background-image: URL("http://i.imgur.com/spmHvH1.jpg");
 	background-size: cover;
 	background-position: center center;
 	display: block;
 	float: right;
+}
+
+#hero-7 {
+	width: 50%;
+	height: 33vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/4fOWdu0.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
+}
+
+#hero-8 {
+	width: 50%;
+	height: 33vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/rVCNlby.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
 }
 
 @media (min-width:1800px) {
@@ -211,6 +235,16 @@ a:active { /* LINK STATE */
 	}
 
 	#hero-6 {
+		width: 50%;
+		height: 325px;
+	}
+
+	#hero-7 {
+		width: 50%;
+		height: 325px;
+	}
+
+	#hero-8 {
 		width: 50%;
 		height: 325px;
 	}
@@ -247,6 +281,16 @@ a:active { /* LINK STATE */
 		width: 100%;
 		height: 240px;
 	}
+
+	#hero-7 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-8 {
+		width: 100%;
+		height: 240px;
+	}
 }
 
 @media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
@@ -277,6 +321,16 @@ a:active { /* LINK STATE */
 	}
 
 	#hero-6 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-7 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-8 {
 		width: 100%;
 		height: 240px;
 	}
