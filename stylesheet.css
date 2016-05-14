@@ -208,48 +208,6 @@ a:active { /* LINK STATE */
 	float: left;
 }
 
-@media (min-width:1800px) {
-	#hero-1 {
-		width: 50%;
-		height: 300px;
-	}
-
-	#hero-2 {
-		width: 50%;
-		height: 300px;
-	}
-
-	#hero-3 {
-		width: 50%;
-		height: 300px;
-	}
-
-	#hero-4 {
-		width: 50%;
-		height: 300px;
-	}
-
-	#hero-5 {
-		width: 50%;
-		height: 300px;
-	}
-
-	#hero-6 {
-		width: 50%;
-		height: 300px;
-	}
-
-	#hero-7 {
-		width: 50%;
-		height: 300px;
-	}
-
-	#hero-8 {
-		width: 50%;
-		height: 300px;
-	}
-}
-
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
 
 	#hero-1 {
@@ -542,9 +500,6 @@ ul {
 	height: auto;
 	margin: 30px 0px 30px 0px;
 }
-
-/* ==================== END ABOUT PAGE STYLING ==================== */
-
 
 /* ==================== END ABOUT PAGE STYLING ==================== */
 
