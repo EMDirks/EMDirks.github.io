@@ -251,49 +251,6 @@ a:active { /* LINK STATE */
 	}
 }
 
-@media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
-
-	#hero-1 {
-		width: 100%;
-		height: 240px;
-	}
-
-	#hero-2 {
-		width: 100%;
-		height: 240px;
-	}
-
-	#hero-3 {
-		width: 100%;
-		height: 240px;
-	}
-
-	#hero-4 {
-		width: 100%;
-		height: 240px;
-	}
-
-	#hero-5 {
-		width: 100%;
-		height: 240px;
-	}
-
-	#hero-6 {
-		width: 100%;
-		height: 240px;
-	}
-
-	#hero-7 {
-		width: 100%;
-		height: 240px;
-	}
-
-	#hero-8 {
-		width: 100%;
-		height: 240px;
-	}
-}
-
 /* ================= END INDEX PAGE STYLING ================= */
 
 /* ================= BEGIN WORK PAGE STYLING ================= */
@@ -405,42 +362,6 @@ a:active { /* LINK STATE */
 	}
 }
 
-@media only screen and (max-device-width: 780px) { /* Reformats elements for mobile devices */
-	
-	#spacer {
-		height: 120px;
-	}
-
-	#work-banner {
-		width: 100%;
-	}
-
-	#work-profile {
-		width: 260px;
-	}
-
-	#team {
-		left: 8px;
-	}
-
-	#feature-wrapper {
-		width: 75%;
-		padding: 100px 0px 70px 0px;
-	}
-
-	.feature {
-		margin: 8px;
-		width: 75px;
-		height: 75px;
-	}
-
-	#comp-holder {
-		width: 140%;
-		position: relative;
-		left: -21%;
-	}
-}
-
 /* ================= END WORK PAGE STYLING ================= */
 
 /* ==================== BEGIN RESUME PAGE STYLING ==================== */
@@ -480,12 +401,6 @@ ul {
 }	
 
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
-	#resume-banner {
-		width: 100%;
-	}
-}	
-
-@media only screen and (max-device-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
 	#resume-banner {
 		width: 100%;
 	}
