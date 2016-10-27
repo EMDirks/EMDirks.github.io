@@ -136,6 +136,11 @@ a:active { /* LINK STATE */
 	float: right;
 }
 
+#hero-2:hover {
+	background-size: 105%;
+}
+
+
 #hero-3 {
 	width: 50%;
 	height: 33vh;
@@ -146,6 +151,10 @@ a:active { /* LINK STATE */
 	background-position: center center;
 	display: block;
 	float: left;
+}
+
+#hero-3:hover {
+	background-size: 105%;
 }
 
 #hero-4 {
@@ -160,6 +169,10 @@ a:active { /* LINK STATE */
 	float: right;
 }
 
+#hero-4:hover {
+	background-size: 105%;
+}
+
 #hero-5 {
 	width: 50%;
 	height: 33vh;
@@ -170,6 +183,10 @@ a:active { /* LINK STATE */
 	background-position: center center;
 	display: block;
 	float: left;
+}
+
+#hero-5:hover {
+	background-size: 105%;
 }
 
 #hero-6 {
@@ -184,6 +201,10 @@ a:active { /* LINK STATE */
 	float: right;
 }
 
+#hero-6:hover {
+	background-size: 105%;
+}
+
 #hero-7 {
 	width: 50%;
 	height: 33vh;
@@ -196,6 +217,10 @@ a:active { /* LINK STATE */
 	float: left;
 }
 
+#hero-7:hover {
+	background-size: 105%;
+}
+
 #hero-8 {
 	width: 50%;
 	height: 33vh;
@@ -206,6 +231,10 @@ a:active { /* LINK STATE */
 	background-position: center center;
 	display: block;
 	float: left;
+}
+
+#hero-8:hover {
+	background-size: 105%;
 }
 
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
