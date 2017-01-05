@@ -90,6 +90,7 @@ a:active { /* LINK STATE */
 
 /* ================= BEGIN INDEX PAGE STYLING ================= */
 
+
 #hero-1 {
 	width: 50%;
 	height: 34vh;
@@ -100,6 +101,7 @@ a:active { /* LINK STATE */
 	background-position: center center;
 	display: block;
 	float: left;
+
 }
 
 #ghost {
@@ -136,12 +138,31 @@ a:active { /* LINK STATE */
 	float: right;
 }
 
-#hero-2:hover {
-	background-size: 105%;
+#hero-3 {
+	width: 50%;
+	height: 33vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/R5aXwIe.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: left;
 }
 
+#hero-4 {
+	width: 50%;
+	height: 33vh;
+	margin: 0;
+	padding: 0;
+	background-image: URL("http://i.imgur.com/GqrByRW.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	float: right;
+}
 
-#hero-3 {
+#hero-5 {
 	width: 50%;
 	height: 33vh;
 	margin: 0;
@@ -153,11 +174,7 @@ a:active { /* LINK STATE */
 	float: left;
 }
 
-#hero-3:hover {
-	background-size: 105%;
-}
-
-#hero-4 {
+#hero-6 {
 	width: 50%;
 	height: 33vh;
 	margin: 0;
@@ -169,11 +186,7 @@ a:active { /* LINK STATE */
 	float: right;
 }
 
-#hero-4:hover {
-	background-size: 105%;
-}
-
-#hero-5 {
+#hero-7 {
 	width: 50%;
 	height: 33vh;
 	margin: 0;
@@ -185,11 +198,7 @@ a:active { /* LINK STATE */
 	float: left;
 }
 
-#hero-5:hover {
-	background-size: 105%;
-}
-
-#hero-6 {
+#hero-8 {
 	width: 50%;
 	height: 33vh;
 	margin: 0;
@@ -201,11 +210,7 @@ a:active { /* LINK STATE */
 	float: right;
 }
 
-#hero-6:hover {
-	background-size: 105%;
-}
-
-#hero-7 {
+#hero-9 {
 	width: 50%;
 	height: 33vh;
 	margin: 0;
@@ -217,11 +222,7 @@ a:active { /* LINK STATE */
 	float: left;
 }
 
-#hero-7:hover {
-	background-size: 105%;
-}
-
-#hero-8 {
+#hero-10 {
 	width: 50%;
 	height: 33vh;
 	margin: 0;
@@ -230,11 +231,7 @@ a:active { /* LINK STATE */
 	background-size: cover;
 	background-position: center center;
 	display: block;
-	float: left;
-}
-
-#hero-8:hover {
-	background-size: 105%;
+	float: right;
 }
 
 @media only screen and (max-width: 780px) { /* Reformats elements when desktop is scaled down horizontally */
@@ -275,6 +272,16 @@ a:active { /* LINK STATE */
 	}
 
 	#hero-8 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-9 {
+		width: 100%;
+		height: 240px;
+	}
+
+	#hero-10 {
 		width: 100%;
 		height: 240px;
 	}
