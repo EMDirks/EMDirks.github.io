@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  transition: background-color 3s;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+h1,h2,h3,h4,li,p {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 5rem 0 0 0;
+  user-select: none;
+}
+
+h2 {
+  font-size: 1.22rem;
+  max-width: 19rem;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1rem;
+  max-width: 17rem;
+  margin: 2rem auto;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 1.3rem;
+}
+
+
+h4 {
+  font-size: 3rem;
+  margin: 0;
+  user-select: none;
+}
+
+
+ul {
+  margin: 1.6rem 0 0 0;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+footer {
+  margin: 0 0 2rem 0;
+}
+
+header {
+  margin-bottom: 6rem;
+}
+
+#portfolio {
+  transition: all 3s;
+  position: relative;
+  transform: scale(1);
+}
+
+#wizard {
+  width: 5.2rem;
+  height: 5.5rem;
+  background-image: url(images/wizard.gif);
+  background-size: 100% 102%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  cursor: url(images/wand.png), pointer;
+  transition: opacity 5s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.move {}
+
+#footer-list {
+  margin: 0;
+}
+
+#footer-item {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#my-projects {
+  width: 60rem;
+  position: relative;
+  margin: 4rem auto 20rem auto;
+  height: 100vh;
+}
+
+.project-feature {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+
+#project-gobble {
+  background-image: url(images/project-gobble.gif);
+  width: 18rem;
+  height: 18rem;
+}
+
+#project-plot-guru {
+  background-image: url(images/project-plot-guru.gif);
+  width: 14rem;
+  height: 14rem;
+  left: 36rem;
+  top: 6rem;
+}
+
+#project-bean-bean-bean {
+  background-image: url(images/project-bean-bean-bean.gif);
+  width: 15rem;
+  height: 15rem;
+  top: 16rem;
+  left: 15rem;
+}
+
+#project-fiend {
+  background-image: url(images/project-fiend.gif);
+  right: 0;
+  top: 18rem;
+}
+
+#project-misc {
+  background-image: url(images/project-misc.gif);
+  width: 16rem;
+  height: 16rem;
+  left: 0rem;
+  top: 30rem;
+}
+
+#project-awards {
+  background-image: url(images/awards.gif);
+  width: 10rem;
+  height: 10rem;
+  left: 25rem;
+  top: 40rem;
+}
+
+#project-resume {
+  background-image: url(images/project-resume.gif);
+  width: 15rem;
+  height: 15rem;
+  left: 33rem;
+  top: 45rem;
+}
+
+.project-image {
+  width: 100%;
+}
+
+#resume {
+  margin: 2rem;
+}
+
+.li-heading {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.li-subheading {
+  font-size: 1.5rem;
+}
+
+.li-point {
+  font-size: 1rem;
+}
+
+#wayne {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/evil-wizard.gif);
+  background-size: 0rem 0rem;
+  background-position: center center;
+  image-rendering: pixelated;
+  animation: freaky 7s 1;
+}
+
+@keyframes freaky {
+  0%   {background-size: 100rem 100rem;}
+  100%  {background-size: 0rem 0rem;}
+}
+
+#wayne-text {
+  color: #ffffff;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -4rem;
+  margin-left: -7.5rem;
+  width: 15rem;
+  height: 8rem;
+  text-align: center;
+  animation: shake 0.1s;
+  animation-iteration-count: 50;
+  animation-delay: 2s;
+  text-shadow: 2px 2px #000000;
+  transform: scale(0,0);
+}
+
+@keyframes shake {
+  0%   {transform: scale(1.5,1.5);}
+  100%  {transform: scale(1,1);}
+}
+
+#project-gallery {
+  margin: 4rem auto 0rem auto;
+  position: relative;
+  display: block;
+  width: 55vw;
+}
+
+.project-image-a {
+  width: 100%;
+  margin: 0 auto 6vw auto;
+  display: block;
+}
+
+.project-image-b {
+  width: 70%;
+  margin: 0 auto 6vw auto;
+  display: block;
+}
+
+.subheader {
+  margin: 5rem 0 2.3rem 0;
+}
+
+.black {
+  background-color: #000000;
+}
+
+#glyph-wrapper {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#curse {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+#sword {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+#wayne-text-2 {
+  color: #ffffff;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -4rem;
+  margin-left: -7.5rem;
+  width: 15rem;
+  height: 8rem;
+  text-align: center;
+  animation: glow 0.5s;
+  animation-iteration-count: 8;
+  animation-delay: 2s;
+  text-shadow: 2px 2px #000000;
+  opacity: 0;
+}
+
+@keyframes glow {
+  0%   {opacity: 0.5;}
+  50%  {opacity: 1;}
+  100%  {opacity: 0.5;}
+}
+
+.glyph {
+  display: inline-block;
+  width: 10rem;
+  height: auto;
+  margin: 1rem;
+}
+
+#blade {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/blade.gif);
+  background-size: auto 80%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}
+
+#goblin {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+#face {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/goblin.gif);
+  background-size: auto 80%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}
+
+#wizard-fuckery {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #000000;
+  display: none;
+  z-index: 4;
+}
+
+.glyph:hover {
+  transform: scale(1.1,1.1);
+}
+
+.wizard-text {
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+  font-style: italic;
+  color: #ffffff;
+}
+
+#wiz-slain-text {
+  display: none;
+  font-style: italic;
+}
+
+span {
+  color: #3a61f4;
+}
+
+@media only screen and (max-width: 60rem) {
+
+  #my-projects {
+    width: 100vw;
+    position: relative;
+    margin: 4rem auto 20rem auto;
+    height: 100vh;
+  }
+
+  #project-gobble,
+  #project-plot-guru,
+  #project-bean-bean-bean,
+  #project-fiend,
+  #project-misc,
+  #project-awards,
+  #project-resume {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 5rem auto;
+  }
+
+  .wizard-text {
+    width: 60vw;
+    margin: 0rem auto 2rem auto;
+  }
+
+  .glyph {
+    width: 25vw;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  #project-gallery {
+    width: 90vw;
+  }
+}
