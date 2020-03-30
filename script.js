@@ -8,9 +8,9 @@ var wizIsDead = false;
 
 $("#wizard").css("opacity","1");
 
-var cursorArray = ['url("../images/grab1.png"), pointer',
-                   'url("../images/grab2.png"), pointer',
-                  'url("../images/grab3.png"), pointer'];
+var cursorArray = ['url("images/grab1.png"), pointer',
+                   'url("images/grab2.png"), pointer',
+                  'url("images/grab3.png"), pointer'];
 
 i = 0;
 (function cursor(){
@@ -79,7 +79,7 @@ $("#wizard").click(function(){
       $("#portfolio").css("opacity","0");
   }
   else {
-    $("#wizard").css("background-image","url(../images/wiz_die.gif");
+    $("#wizard").css("background-image","url(images/wiz_die.gif");
     $("#wizard").css("z-index","10");
     $("#wizard").removeClass("move");
     wizIsDead = true;
@@ -92,7 +92,7 @@ $("#wizard").click(function(){
 });
 
 $("#glyph3").click(function(){
-    $("#wizard").css("cursor","url(../images/blade.png), pointer");
+    $("#wizard").css("cursor","url(images/blade.png), pointer");
     $("#wizard-fuckery").css("display","none");  
     $("#sword").fadeIn(5000); 
     bladeOfNight = true;

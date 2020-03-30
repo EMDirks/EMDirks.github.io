@@ -68,6 +68,7 @@ footer {
 
 header {
   margin-bottom: 6rem;
+  position: relative;
 }
 
 #portfolio {
@@ -212,7 +213,7 @@ header {
   color: #ffffff;
   font-size: 2rem;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   margin-top: -4rem;
   margin-left: -7.5rem;
@@ -285,7 +286,7 @@ header {
   color: #ffffff;
   font-size: 2rem;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   margin-top: -4rem;
   margin-left: -7.5rem;
@@ -369,13 +370,18 @@ span {
   color: #3a61f4;
 }
 
+#header-awards {
+  display: none;
+}
+
 @media only screen and (max-width: 60rem) {
 
   #my-projects {
-    width: 100vw;
+    width: 20rem;
     position: relative;
-    margin: 4rem auto 20rem auto;
+    margin: -1rem auto 20rem auto;
     height: 100vh;
+    text-align: center;
   }
 
   #project-gobble,
@@ -385,11 +391,15 @@ span {
   #project-misc,
   #project-awards,
   #project-resume {
+    display: inline-block;
     position: relative;
-    display: block;
     top: 0;
     left: 0;
-    margin: 5rem auto;
+    margin: 0rem auto 5rem auto;
+  }
+
+  #project-awards {
+    display: none;
   }
 
   .wizard-text {
@@ -401,11 +411,36 @@ span {
     width: 25vw;
   }
 
+  #wizard {
+    display: none;
+  }
+
+  #header-awards {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 15%;
+    left: 83%;
+    transform: translate(-15%, -83%);
+    background-image: url(images/awards.gif);
+    background-size: 5rem 5rem;
+    z-index: -1;
+  }
+
 }
 
 @media only screen and (max-width: 800px) {
 
   #project-gallery {
     width: 90vw;
+  }
+
+  body {
+    padding-bottom: 5rem;
+  }
+
+  #my-projects {
+    padding-bottom: 65rem;
   }
 }
