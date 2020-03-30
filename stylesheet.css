@@ -374,6 +374,10 @@ span {
   display: none;
 }
 
+.stupid-safari-spacer {
+  display: none;
+}
+
 @media only screen and (max-width: 60rem) {
 
   #my-projects {
@@ -398,10 +402,6 @@ span {
     margin: 0rem auto 5rem auto;
   }
 
-  #project-awards {
-    display: none;
-  }
-
   .wizard-text {
     width: 60vw;
     margin: 0rem auto 2rem auto;
@@ -415,17 +415,10 @@ span {
     display: none;
   }
 
-  #header-awards {
-    display: block;
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    top: 15%;
-    left: 83%;
-    transform: translate(-15%, -83%);
-    background-image: url(images/awards.gif);
-    background-size: 5rem 5rem;
-    z-index: -1;
+  .stupid-safari-spacer {
+    display: inline-block;
+    height: 7rem;
+    width: 15rem;
   }
 
 }
@@ -434,13 +427,5 @@ span {
 
   #project-gallery {
     width: 90vw;
-  }
-
-  body {
-    padding-bottom: 5rem;
-  }
-
-  #my-projects {
-    padding-bottom: 65rem;
   }
 }
