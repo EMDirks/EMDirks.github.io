@@ -1,6 +1,7 @@
 var butt = document.getElementById("full-screen");
 
 butt.addEventListener("click", function() {
+	alert("full screen enabled");
   toggleFullScreen();
 });
 
