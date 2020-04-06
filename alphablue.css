@@ -11,6 +11,12 @@ body {
 	background-color: #000000;
 }
 
+.full-screen {
+	color: white;
+	position: absolute;
+	cursor: pointer;
+}
+
 .container {
 	display: flex;
     align-items: center;
@@ -20,11 +26,16 @@ body {
 
 
 
-.div-game-wrapper {
+.div-game-wrapper-desktop {
 	display: flex;
 	width: 51rem;
 	height: 34.5rem;
-	background-color: #ffffff;
+	background-color: grey;
+	padding: 3rem;
+}
+
+.div-game-wrapper-mobile {
+	display: none;
 }
 
 
@@ -55,84 +66,80 @@ body {
 	flex-wrap: nowrap;
 }
 
+
 .section-actions {
- 	width: 80%;
-  	height: 55%;
+ 	width: 100%;
+  	height: 65%;
   	background-color: rgba(0,0,0,0.3);
-  	padding: 10%;
+}
+
+.action-button-wrapper {
+	width: 80%;
+	height: 100%;
+	padding: 10% 10%;
 }
 
 .action-button {
 	width: 100%;
-	height: 16.4%;
-	background-color: rgba(0,0,0,0.5);
-	margin: 0 auto 8% auto;
-	cursor: pointer;
+	height: 15%;
+	background-color: rgba(255,255,255,0.5);
+	margin: 0 0 7.5% 0;
 }
 
 .section-tech {
  	width: 100%;
- 	height: 37.5%;
+ 	height: 35%;
   	background-color: rgba(0,0,0,0.2);
   	position: relative;
 }
 
-.toggle-wrapper {
-	display: flex;
-	width: 100%;
-	height: 15%;
-	position: absolute;
-	bottom: -1%;
-}
 
-.toggle-button {
-	width: 50%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.5);
-	cursor: pointer;
-	flex-wrap: nowrap;
-}
-
-#toggle-button-1 {
-	background-color: rgba(0,0,0,0.4);
-}
-
-#toggle-button-2 {
-	background-color: rgba(0,0,0,0.5);
-}
-
-@media (max-width: 1000px) {	
-	.div-game-wrapper {
+/* Desktop Responsive */
+@media (max-width: 1000px) and (min-height: 480px) {
+	.div-game-wrapper-mobile {
+	  	display: none;
+	}	
+	.div-game-wrapper-desktop {
+		display: flex;
 		width: 80vw;
 		height: 53.33vw;
+		padding: 5vw;
 	}
 }
 
-@media (max-height: 580px) {	
-	.div-game-wrapper {
-	  	height: 95vh;
-	  	width: 140vh;
-}
-
-
-@media (max-height: 340px) {	
-	.div-game-wrapper {
-	  	height: 95vh;
-	  	width: 140vh;
+/* Mobile */
+@media (max-width: 1000px) and (max-height: 480px) {
+	.div-game-wrapper-desktop {
+	  	display: none;
 	}
-}
-
-@media (max-height: 580px) and (max-width: 400px) {	
-	.div-game-wrapper {
-	  	height: 95vh;
-	  	width: 140vh;
+	.div-game-wrapper-mobile {
+	  	display: flex;
+	  	width: 180vh;
+		height: 90vh;
 	}
-}
-
-
-@media (orientation: landscape) and (max-width: 700px) and (min-width: 600px) {
-	.div-game-wrapper {
-	  	height: 95vh;
-	  	width: 145vh;
+	.container {
+		background-color: grey;
+	}
+	.div-viewer-dialogue-wrapper {
+		width: 55%;
+	}
+	.div-actions-tech-wrapper {
+		width: 25%;
+	}
+	.section-tech {
+		width: 20%;
+		height: 100%;
+	}
+	.section-actions {
+		height: 100%;
+	}
+	.action-button {
+		margin: 0 0 9.5% 0;
+	}
+	.section-viewer {
+		height: 70%;
+	}
+	.section-dialogue {
+		height: 30%;
 	}
 }
