@@ -25,13 +25,11 @@ body {
 }
 
 
-
 .div-game-wrapper-desktop {
 	display: flex;
 	width: 51rem;
 	height: 34.5rem;
 	background-color: grey;
-	padding: 3rem;
 }
 
 .div-game-wrapper-mobile {
@@ -103,7 +101,6 @@ body {
 		display: flex;
 		width: 80vw;
 		height: 53.33vw;
-		padding: 5vw;
 	}
 }
 
@@ -113,12 +110,10 @@ body {
 	  	display: none;
 	}
 	.div-game-wrapper-mobile {
+		background-color: grey;
 	  	display: flex;
 	  	width: 180vh;
 		height: 90vh;
-	}
-	.container {
-		background-color: grey;
 	}
 	.div-viewer-dialogue-wrapper {
 		width: 55%;
