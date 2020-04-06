@@ -11,6 +11,21 @@ body {
 	background-color: #000000;
 }
 
+h1 {
+	margin: 35vh auto;
+	text-align: center;
+	padding: 5vh;
+}
+
+.div-orientation {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: grey;
+	z-index: 10;
+	display: none;
+}
+
 .full-screen {
 	color: white;
 	position: absolute;
@@ -92,8 +107,14 @@ body {
 }
 
 
+@media (max-width: 500px) and (orientation: portrait){
+    .div-orientation {
+    	display: block;
+    }
+}
+
 /* Desktop Responsive */
-@media (max-width: 1000px) and (min-height: 480px) {
+@media (max-width: 1000px) {
 	.div-game-wrapper-mobile {
 	  	display: none;
 	}	
@@ -105,14 +126,14 @@ body {
 }
 
 /* Mobile */
-@media (max-width: 1000px) and (max-height: 480px) {
+@media (max-width: 1000px) and (max-height: 480px){
 	.div-game-wrapper-desktop {
 	  	display: none;
 	}
 	.div-game-wrapper-mobile {
 		background-color: grey;
 	  	display: flex;
-	  	width: 180vh;
+	  	width: 160vh;
 		height: 90vh;
 	}
 	.div-viewer-dialogue-wrapper {
@@ -138,3 +159,68 @@ body {
 		height: 30%;
 	}
 }
+
+@media (max-width: 550px) and (min-height: 330px){
+	.div-game-wrapper-mobile {
+	  	display: none;
+	}	
+	.div-game-wrapper-desktop {
+		display: flex;
+		width: 80vw;
+		height: 50vw;
+	}
+	.div-viewer-dialogue-wrapper {
+	height: 100%;
+	width: 75%;
+	flex-wrap: nowrap;
+}
+
+.section-viewer {
+  	width: 100%;
+  	height: 75%;
+  	background-color: rgba(0,0,0,0.5);
+}
+
+.section-dialogue {
+ 	width: 100%;
+  	height: 25%;
+  	background-color: rgba(0,0,0,0.4);
+}
+
+
+
+.div-actions-tech-wrapper {
+	height: 100%;
+	width: 25%;
+	flex-wrap: nowrap;
+}
+
+
+.section-actions {
+ 	width: 100%;
+  	height: 65%;
+  	background-color: rgba(0,0,0,0.3);
+}
+
+.action-button-wrapper {
+	width: 80%;
+	height: 100%;
+	padding: 10% 10%;
+}
+
+.action-button {
+	width: 100%;
+	height: 15%;
+	background-color: rgba(255,255,255,0.5);
+	margin: 0 0 7.5% 0;
+}
+
+.section-tech {
+ 	width: 100%;
+ 	height: 35%;
+  	background-color: rgba(0,0,0,0.2);
+  	position: relative;
+}
+
+}
+
