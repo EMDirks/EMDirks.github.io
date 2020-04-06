@@ -7,13 +7,9 @@ html {
 	margin: 0;
 }
 
-p {
-	font-size: 100%;
-	font-family: sans-serif;
-	user-select: none;
-	margin: 0;
+body {
+	background-color: #000000;
 }
-
 
 .container {
 	display: flex;
@@ -26,8 +22,9 @@ p {
 
 .div-game-wrapper {
 	display: flex;
-	width: 60vw;
-	height: 40vw;
+	width: 51rem;
+	height: 34.5rem;
+	background-color: #ffffff;
 }
 
 
@@ -69,16 +66,8 @@ p {
 	width: 100%;
 	height: 16.4%;
 	background-color: rgba(0,0,0,0.5);
-	margin: 0 auto 1vw auto;
+	margin: 0 auto 8% auto;
 	cursor: pointer;
-}
-
-.action-button-text {
-	display: block;
-	margin: 0 auto;
-	padding: 5% 0;
-	text-align: center;
-	font-size: 2vw;
 }
 
 .section-tech {
@@ -93,7 +82,7 @@ p {
 	width: 100%;
 	height: 15%;
 	position: absolute;
-	bottom: 0;
+	bottom: -1%;
 }
 
 .toggle-button {
@@ -112,15 +101,38 @@ p {
 	background-color: rgba(0,0,0,0.5);
 }
 
-.toggle-button-text {
-	text-align: center;
-	font-size: 1vw;
-	margin-top: 0.55vw;
+@media (max-width: 1000px) {	
+	.div-game-wrapper {
+		width: 80vw;
+		height: 53.33vw;
+	}
 }
 
-@media (orientation: landscape) {
-  .div-game-wrapper {
-  	height: 90vh;
-  	width: 130vh;
-  }
+@media (max-height: 580px) {	
+	.div-game-wrapper {
+	  	height: 95vh;
+	  	width: 140vh;
+}
+
+
+@media (max-height: 340px) {	
+	.div-game-wrapper {
+	  	height: 95vh;
+	  	width: 140vh;
+	}
+}
+
+@media (max-height: 580px) and (max-width: 400px) {	
+	.div-game-wrapper {
+	  	height: 95vh;
+	  	width: 140vh;
+	}
+}
+
+
+@media (orientation: landscape) and (max-width: 700px) and (min-width: 600px) {
+	.div-game-wrapper {
+	  	height: 95vh;
+	  	width: 145vh;
+	}
 }
