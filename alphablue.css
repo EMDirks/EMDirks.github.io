@@ -1,6 +1,8 @@
 body,
 html {
-	height: 100%;
+	width: 100vw;
+  	height: 100vh;
+  	overflow: hidden;
 	padding: 0;
 	margin: 0;
 }
@@ -114,4 +116,11 @@ p {
 	text-align: center;
 	font-size: 1vw;
 	margin-top: 0.55vw;
+}
+
+@media (orientation: landscape) {
+  .div-game-wrapper {
+  	height: 90vh;
+  	width: 130vh;
+  }
 }
