@@ -12,9 +12,9 @@ body {
 }
 
 h1 {
-	margin: 35vh auto;
+	margin: 0 auto;
+	padding-top: 45vh;
 	text-align: center;
-	padding: 5vh;
 }
 
 .div-orientation {
@@ -23,7 +23,7 @@ h1 {
 	height: 100vh;
 	background-color: grey;
 	z-index: 10;
-	display: none;
+	display: none;	
 }
 
 .full-screen {
@@ -107,7 +107,7 @@ h1 {
 }
 
 
-@media (max-width: 500px) and (orientation: portrait){
+@media (max-width: 600px) and (orientation: portrait){
     .div-orientation {
     	display: block;
     }
