@@ -1,0 +1,117 @@
+body,
+html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-size: 100%;
+	font-family: sans-serif;
+	user-select: none;
+	margin: 0;
+}
+
+
+.container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.div-game-wrapper {
+	display: flex;
+	width: 60vw;
+	height: 40vw;
+}
+
+
+
+.div-viewer-dialogue-wrapper {
+	height: 100%;
+	width: 75%;
+	flex-wrap: nowrap;
+}
+
+.section-viewer {
+  	width: 100%;
+  	height: 75%;
+  	background-color: rgba(0,0,0,0.5);
+}
+
+.section-dialogue {
+ 	width: 100%;
+  	height: 25%;
+  	background-color: rgba(0,0,0,0.4);
+}
+
+
+
+.div-actions-tech-wrapper {
+	height: 100%;
+	width: 25%;
+	flex-wrap: nowrap;
+}
+
+.section-actions {
+ 	width: 80%;
+  	height: 55%;
+  	background-color: rgba(0,0,0,0.3);
+  	padding: 10%;
+}
+
+.action-button {
+	width: 100%;
+	height: 16.4%;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto 1vw auto;
+	cursor: pointer;
+}
+
+.action-button-text {
+	display: block;
+	margin: 0 auto;
+	padding: 5% 0;
+	text-align: center;
+	font-size: 2vw;
+}
+
+.section-tech {
+ 	width: 100%;
+ 	height: 37.5%;
+  	background-color: rgba(0,0,0,0.2);
+  	position: relative;
+}
+
+.toggle-wrapper {
+	display: flex;
+	width: 100%;
+	height: 15%;
+	position: absolute;
+	bottom: 0;
+}
+
+.toggle-button {
+	width: 50%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	cursor: pointer;
+	flex-wrap: nowrap;
+}
+
+#toggle-button-1 {
+	background-color: rgba(0,0,0,0.4);
+}
+
+#toggle-button-2 {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.toggle-button-text {
+	text-align: center;
+	font-size: 1vw;
+	margin-top: 0.55vw;
+}
