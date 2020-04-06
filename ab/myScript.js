@@ -19,3 +19,5 @@ function toggleFullScreen() {
     cancelFullScreen.call(doc);
   }
 }
+
+setTimeout(function () {   window.scrollTo(0, 1); }, 1000);
