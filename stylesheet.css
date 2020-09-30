@@ -133,6 +133,15 @@ header {
   height: 14rem;
   left: 36rem;
   top: 6rem;
+  display: none;
+}
+
+#project-skurt {
+  background-image: url(images/skurt.gif);
+  width: 14rem;
+  height: 14rem;
+  left: 36rem;
+  top: 2rem;
 }
 
 #project-bean-bean-bean {
