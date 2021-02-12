@@ -39,7 +39,7 @@ h2 {
 
 h3 {
   font-size: 1rem;
-  max-width: 17rem;
+  max-width: 20rem;
   margin: 2rem auto;
   font-weight: 200;
   font-style: italic;
@@ -63,12 +63,24 @@ li {
 }
 
 footer {
-  margin: 0 0 2rem 0;
+  margin: 5rem 0 2rem 0;
 }
 
 header {
   margin-bottom: 6rem;
   position: relative;
+}
+
+.p-back {
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  z-index: 999;
 }
 
 #portfolio {
@@ -398,7 +410,7 @@ span {
   }
 
   #project-gobble,
-  #project-skurt,
+  #project-plot-guru,
   #project-bean-bean-bean,
   #project-fiend,
   #project-misc,
