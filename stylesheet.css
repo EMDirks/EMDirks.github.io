@@ -71,6 +71,11 @@ header {
   position: relative;
 }
 
+.email {
+  margin: 0.5rem auto;
+
+}
+
 .p-back {
   cursor: pointer;
   position: absolute;
