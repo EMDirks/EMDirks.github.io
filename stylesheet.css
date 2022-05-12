@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: black;
+  color: blue;
   text-decoration: underline;
 }
 
@@ -138,47 +138,42 @@ header {
   z-index: 3;
 }
 
+#project-anodos {
+  background-image: url(images/bullet-machine.gif);
+  width: 15rem;
+  height: 15rem;
+  top: -2rem;
+  left: 4rem;
+}
+
 #project-gobble {
   background-image: url(images/project-gobble.gif);
-  width: 18rem;
-  height: 18rem;
-}
-
-#project-plot-guru {
-  background-image: url(images/project-plot-guru.gif);
-  width: 14rem;
-  height: 14rem;
-  left: 36rem;
-  top: 6rem;
-  display: none;
-}
-
-#project-skurt {
-  background-image: url(images/skurt.gif);
-  width: 14rem;
-  height: 14rem;
-  left: 36rem;
-  top: 2rem;
+  width: 16rem;
+  height: 16rem;
+  top: 16rem;
+  left: 15rem;
 }
 
 #project-bean-bean-bean {
   background-image: url(images/project-bean-bean-bean.gif);
-  width: 15rem;
-  height: 15rem;
-  top: 16rem;
-  left: 15rem;
+  width: 14rem;
+  height: 14rem;
+  left: 36rem;
+  top: 3rem;
 }
 
 #project-fiend {
   background-image: url(images/project-fiend.gif);
   right: 0;
+  width: 19rem;
+  height: 19rem;
   top: 18rem;
 }
 
 #project-misc {
   background-image: url(images/project-misc.gif);
-  width: 16rem;
-  height: 16rem;
+  width: 15rem;
+  height: 15rem;
   left: 0rem;
   top: 30rem;
 }
@@ -414,8 +409,8 @@ span {
     text-align: center;
   }
 
+  #project-anodos,
   #project-gobble,
-  #project-plot-guru,
   #project-bean-bean-bean,
   #project-fiend,
   #project-misc,
