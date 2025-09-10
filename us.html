@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 1;
+        }
+        
+        .play-button {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .play-button:hover {
+            background: rgba(255, 255, 255, 1);
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+        
+        .play-button::before {
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 30px solid #333;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            margin-left: 5px;
+        }
+        
+        .play-button.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <video id="video">
+        <source src="images/engagement.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <button class="play-button" id="playButton" onclick="playVideo()"></button>
+    
+    <script>
+        function playVideo() {
+            const video = document.getElementById('video');
+            const playButton = document.getElementById('playButton');
+            
+            video.currentTime = 0;
+            video.play();
+            playButton.classList.add('hidden');
+        }
+        
+        document.getElementById('video').addEventListener('ended', function() {
+            document.getElementById('playButton').classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
