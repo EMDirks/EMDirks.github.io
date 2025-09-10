@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Screen Video</title>
+    <title>YouTube Video</title>
     <style>
         * {
             margin: 0;
@@ -14,77 +14,63 @@
         body, html {
             height: 100%;
             overflow: hidden;
+            background: #000;
         }
         
-        video {
+        .video-container {
             position: fixed;
             top: 0;
             left: 0;
             width: 100vw;
             height: 100vh;
-            object-fit: cover;
-            z-index: 1;
-        }
-        
-        .play-button {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100px;
-            height: 100px;
-            background: rgba(255, 255, 255, 0.9);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            z-index: 2;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s ease;
         }
         
-        .play-button:hover {
-            background: rgba(255, 255, 255, 1);
-            transform: translate(-50%, -50%) scale(1.1);
+        .youtube-embed {
+            width: 100%;
+            height: 100%;
+            max-width: 100vw;
+            max-height: 100vh;
         }
         
-        .play-button::before {
-            content: '';
-            width: 0;
-            height: 0;
-            border-left: 30px solid #333;
-            border-top: 20px solid transparent;
-            border-bottom: 20px solid transparent;
-            margin-left: 5px;
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
         
-        .play-button.hidden {
-            display: none;
+        /* Responsive adjustments */
+        @media (max-aspect-ratio: 16/9) {
+            .youtube-embed {
+                width: 100vw;
+                height: 56.25vw; /* 16:9 aspect ratio */
+            }
+        }
+        
+        @media (min-aspect-ratio: 16/9) {
+            .youtube-embed {
+                width: 177.78vh; /* 16:9 aspect ratio */
+                height: 100vh;
+            }
         }
     </style>
 </head>
 <body>
-    <video id="video">
-        <source src="images/engagement.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    <button class="play-button" id="playButton" onclick="playVideo()"></button>
-    
-    <script>
-        function playVideo() {
-            const video = document.getElementById('video');
-            const playButton = document.getElementById('playButton');
-            
-            video.currentTime = 0;
-            video.play();
-            playButton.classList.add('hidden');
-        }
-        
-        document.getElementById('video').addEventListener('ended', function() {
-            document.getElementById('playButton').classList.remove('hidden');
-        });
-    </script>
+    <div class="video-container">
+        <div class="youtube-embed">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/dfwe5ebFzCw?si=PZUCQYImDJavtNyI" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
 </body>
 </html>
