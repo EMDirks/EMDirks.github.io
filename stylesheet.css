@@ -125,7 +125,7 @@ header {
 #my-projects {
   width: 60rem;
   position: relative;
-  margin: 4rem auto 20rem auto;
+  margin: 4rem auto 25rem auto;
   height: 100vh;
 }
 
@@ -139,60 +139,68 @@ header {
   z-index: 3;
 }
 
+#project-puzzle-punks {
+  background-image: url(images/puzzle-punks.gif);
+  width: 15rem;
+  height: 15rem;
+  top: -2rem;
+  left: 6rem;
+}
+
 #project-anodos {
   background-image: url(images/bullet-machine.gif);
   width: 15rem;
   height: 15rem;
-  top: -2rem;
-  left: 4rem;
+  top: 18rem;
+  left: 15rem;
 }
 
 #project-gobble {
   background-image: url(images/project-gobble.gif);
   width: 16rem;
   height: 16rem;
-  top: 16rem;
-  left: 15rem;
+  left: 36rem;
+  top: 3rem;
 }
 
 #project-bean-bean-bean {
   background-image: url(images/project-bean-bean-bean.gif);
   width: 14rem;
   height: 14rem;
-  left: 36rem;
-  top: 3rem;
+  right: 0;
+  top: 24rem;
 }
 
 #project-fiend {
   background-image: url(images/project-fiend.gif);
-  right: 0;
   width: 19rem;
   height: 19rem;
-  top: 18rem;
+  left: 0rem;
+  top: 30rem;
 }
 
 #project-misc {
   background-image: url(images/project-misc.gif);
   width: 15rem;
   height: 15rem;
-  left: 0rem;
-  top: 30rem;
+  left: 35rem;
+  top: 40rem;
 }
 
 #project-awards {
   background-image: url(images/awards.gif);
   width: 10rem;
   height: 10rem;
-  left: 25rem;
-  top: 40rem;
+  left: 10rem;
+  top: 55rem;
 }
 
 #project-resume {
   background-image: url(images/project-resume.gif);
   width: 15rem;
   height: 15rem;
-  left: 33rem;
-  top: 45rem;
+  left: 15rem;
+  top: 60rem;
 }
 
 .project-image {
@@ -214,6 +222,8 @@ header {
 
 .li-point {
   font-size: 1rem;
+  max-width: 18rem;
+  margin: 0 auto;
 }
 
 #wayne {
@@ -410,6 +420,7 @@ span {
     text-align: center;
   }
 
+ #project-puzzle-punks,
   #project-anodos,
   #project-gobble,
   #project-bean-bean-bean,
