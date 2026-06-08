@@ -139,7 +139,7 @@ header {
   z-index: 3;
 }
 
-#project-puzzle-punks {
+#project-dingo-punks {
   background-image: url(images/puzzle-punks.gif);
   width: 15rem;
   height: 15rem;
@@ -420,7 +420,7 @@ span {
     text-align: center;
   }
 
- #project-puzzle-punks,
+ #project-dingo-punks,
   #project-anodos,
   #project-gobble,
   #project-bean-bean-bean,
